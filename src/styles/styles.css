@@ -1,0 +1,77 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.timeline-title {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.timeline-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.custom-timeline {
+    width: 100%;
+    max-width: 900px;
+}
+
+.custom-timeline .ant-timeline-item-content {
+    font-size: 18px !important;
+    /* Yazı boyutunu büyütmek için */
+}
+
+.custom-timeline .ant-timeline-item-label {
+    font-size: 18px !important;
+    /* Gerekirse zaman çizelgesi başlıkları için yazı boyutunu büyütmek için */
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin: 20px;
+}
+
+.image-item {
+    width: 250px;
+    height: 250px;
+    border-radius: 9px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease;
+    border-color: aqua;
+
+}
+
+.image-item.selected {
+    border-color: rgba(242, 60, 60, 0.905);
+}
+
+.containers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-name {
+
+    margin-top: 8px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.welcome-text {
+    color: lightgray;
+    margin-left: auto;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.welcome-text:hover {
+    color: white;
+}
